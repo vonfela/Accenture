@@ -1,0 +1,21 @@
+# Node
+node_modules
+
+# Cypress
+cypress/videos
+cypress/screenshots
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ambiente
+.env
+
+# SO
+.DS_Store
+Thumbs.db
+
+# Others
+Desafio - QA Egineer.pdf
