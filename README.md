@@ -25,3 +25,16 @@ Requisitos:
 3. Install Cypress - npm install cypress --save-dev
 4. npx cypress open
 5. When Cypress GUI open, E2E testing, Continue, Electron, Scaffold example specs
+
+
+
+
+
+
+
+
+
+
+
+TESTE FRONTEND:
+
