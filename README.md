@@ -20,17 +20,39 @@ O desafio resume-se ao fluxo abaixo:
 
 
 Requisitos:
-1. Node.js v25.6.1
-2. npm init (all default)
-3. Install Cypress - npm install cypress --save-dev
-4. npx cypress open
-5. When Cypress GUI open, E2E testing, Continue, Electron, Scaffold example specs
+1. Visual Studio Code ou IDE de preferência;
+
+2. Node.js v25.6.1 e NPM (Node Package Manager) = Baixar e instalar Node.js que por padrão vem junto da instalação o NPM: https://nodejs.org/en/blog/release/v25.6.1
+
+3. Git = https://git-scm.com/install/
+
+4. Git Bash = https://gitforwindows.org/
+
+5. Clonar este repositório: Dentro da sua IDE, execute o comando no terminal:
+    gh repo clone vonfela/Accenture
+
+6. Cypress v13.17.0 (caso ja não esteja instalado) = npm install cypress --save-dev
+
+7. Cucumber para Cypress = 
+Execute o comando no terminal:
+    npm install --save-dev @badeball/cypress-cucumber-preprocessor
+
+
+8. Abrindo Cypress e executando testes = 
+- Digitar no terminal: npx cypress open
+- Clicar em "E2E Testing";
+- Selecionar Electron e clicar em "Start E2E Testing in Electron"
 
 
 
 
+COMO RODAR CYPRESS + CUCUMBER + GHERKIN:
+Para rodar testes .feature, você precisa configurar o preprocessor do Cucumber no Cypress.
 
+1. Instalar dependências necessárias:
+Executar comando no terminal: npm install --save-dev @badeball/cypress-cucumber-preprocessor @bahmutov/cypress-esbuild-preprocessor
 
+2. É necessário configurar o cypress.config.js também porém isto ja está feito
 
 
 
@@ -38,3 +60,9 @@ Requisitos:
 
 TESTE FRONTEND:
 
+1. Acessar o site https://demoqa.com/
+2. Escolher a opção "Alerts, Frame & Wubdiws"
+3. Clicar no submenu "Browser Windows"
+4. Clicar no botão "new Windows"
+5. Certifica-se que uma nova janela foi aberta, e validar a msg "Thi is a sample page"
+6. Fechar a nova janela

@@ -1,14 +1,10 @@
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
-  allowCypressEnv: false,
-
   e2e: {
-    baseUrl: "https://demoqa.com/",
-    setupNodeEvents(on, config) {
-      // implement node event listeners here
-    },
+    baseUrl: "https://demoqa.com",
+    specPattern: "cypress/e2e/**/*.cy.js",
   },
-  viewportWidth: 1280,
-  viewportHeight: 720,
+  viewportHeight: 1080,
+  viewportWidth: 1920,
 });
